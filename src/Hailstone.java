@@ -9,13 +9,16 @@ public class Hailstone {
         int times = 0;
         int Value = n;
         while (true) {
-            if(Value == 1){
+            if(Value == 1)
+            {
                 times++;
                 break;
-            }else if (Value % 2 == 0){
+            }else if (Value % 2 == 0)
+            {
                 Value/= 2;
                 times++;
-            }else if(Value% 1 == 0){
+            }else if(Value% 1 == 0)
+            {
                 Value*= 3;
                 Value+= 1;
                 times++;
@@ -36,7 +39,7 @@ public class Hailstone {
 
         int Output = hailstoneLength(n);
 
-        return Output > n;
+        return Output>n;
 
     }
 

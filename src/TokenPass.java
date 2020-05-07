@@ -21,7 +21,7 @@ public class TokenPass {
                 board[a] = 1;
             }
         }
-        currentPlayer = num.nextInt(playerCount);
+
 
     }
 
