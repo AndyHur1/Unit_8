@@ -43,9 +43,11 @@ public class Sound {
         if (samples[0] == 0) {
             int times = 0;
             for (int num : samples) {
-                if (num!= 0){
+                if (num!= 0)
+                {
                     break;}
-                else {
+                else
+                    {
                     times++;
                 }
             }
